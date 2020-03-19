@@ -1,6 +1,6 @@
 # MacOS ThinkPad T440/T440s
 
-Hackintosh MacOS Mojave 10.14.x and 10.15.x
+Hackintosh MacOS Catalina 10.15.x
 
 ## Pre-Installation
 
@@ -74,17 +74,16 @@ Inbuilt Intel WiFi won't work out of the box.
 
 ### 1. Tools needed
 
-- Clover 
+- Clover Bootloader
 
 ### 2. Kexts used
 
 - ACPIBatteryManager.kext
 - AppleALC.kext
-- BrcmBluetoothInjector.kext (requires for BrcmPatchRAM3.kext)
-- BrcmFirmwareData.kext
-- BrcmPatchRAM2.kext (BrcmPatchRAM3.kext for Catalina)
 - EFICheckDisabler.kext
-- FakeSMC.kext
+- VirtualSMC.kext
+- SMCProcessor.kext
+- SMCSuperIO.kext
 - IntelMausi.kext
 - Lilu.kext
 - USBPorts.kext
