@@ -14,7 +14,7 @@ Hackintosh MacOS Catalina 10.15.x
 | ------------- | ------------ |
 | Security Chip | Disabled |
 | Memory Protection Execution Prevention | Enabled |
-| Virtualization | Disabled |
+| Virtualization | Enabled |
 | Fingerprint Reader | Disabled |
 | Anti Theft | Disabled |
 | Computrace | Disabled |
@@ -81,9 +81,7 @@ Inbuilt Intel WiFi won't work out of the box.
 - ACPIBatteryManager.kext
 - AppleALC.kext
 - EFICheckDisabler.kext
-- VirtualSMC.kext
-- SMCProcessor.kext
-- SMCSuperIO.kext
+- FakeSMC.kext
 - IntelMausi.kext
 - Lilu.kext
 - USBPorts.kext
