@@ -1,6 +1,6 @@
 # MacOS ThinkPad T440/T440s
 
-Hackintosh MacOS Catalina 10.15.x
+MacOS Catalina on ThinkPad T440/T440s
 
 ## Pre-Installation
 
@@ -16,36 +16,36 @@ Hackintosh MacOS Catalina 10.15.x
 | Memory Protection Execution Prevention | Enabled |
 | Virtualization | Enabled |
 | Fingerprint Reader | Disabled |
-| Anti Theft | Disabled |
-| Computrace | Disabled |
 | Secure Boot | Disabled |
-| Startup Network Boot | PCI LAN |
 | UEFI/Legacy Boot | UEFI Only |
-| CSM Support | Yes |
+| CSM Support | No |
 | Boot Mode | Quick |
 
 
-### 3. Hardware
+### 3. Configuration
 
-|Compenent|Reference|
-|---|---|
-|CPU|Intel Core i5-4300U vPro|
-|RAM|DDR3L 8GB Bus 1600MHz|
-|GFX|Intel HD Graphics 4400|
-|Sound|Realtek ALC292|
-|Display|14" IPS LCD|
-|WIFI|Intel(R) Dual Band Wireless-AC 7260|
+| Specifications      | Detail                                      |
+| ------------------- | ------------------------------------------- |
+| Processor           | Intel Core i5-4300U                         |
+| Memory              | Samsung DDR3L 8GB Bus 1600MHz               |
+| Hard Disk           | Samsung SSD P851                            |
+| Integrated Graphics | Intel HD Graphics 4400                      |
+| Monitor             | AUO B140HAN01.3 FHD IPS 1920x1080           |
+| Sound Card          | Realtek ALC292                              |
+| Wireless Card       | Intel Dual Band Wireless-AC 7260            |
+
+### 4. Current Status
 
 #### What will work
 
-- Power Management (C/P-States, Fan RPM, Speedstep, etc)
+- Power Management (C/P-States, Fan RPM, Speed step, etc.)
 - HD Intel Graphic Card (HD4400)
 - Sleep (Sleep from menu + lid close sleep)
 - Camera
 - Ethernet
 - Battery Status
 - Brightness
-- Keyboard, Trackpad and Trackpoint
+- Keyboard, Trackpad and TrackPoint
 - Sound (automatic headphone detection, mute, volume controls fully working)
 - USB Ports
 - SD Card Reader
@@ -56,9 +56,9 @@ Hackintosh MacOS Catalina 10.15.x
 - Fingerprint Reader
 - VGA
 
-#### WIFI
+### 5. Wireless Card Replace
 
-Inbuilt Intel WiFi won't work out of the box.
+Inbuilt Intel Wi-Fi won't work out of the box.
 
 - BCM94360CSAX (Recommend)
 - DW1560 (BCM9435Z) - 802.11a/b/g/n/ac 2.4 GHz & 5 GHz
@@ -67,14 +67,10 @@ Inbuilt Intel WiFi won't work out of the box.
 
 ## Installation
 
-....
-
-## Post-Installation
-
-
 ### 1. Tools needed
 
 - Clover Bootloader
+- OpenCore Bootloader
 
 ### 2. Kexts used
 
@@ -100,5 +96,5 @@ Inbuilt Intel WiFi won't work out of the box.
 
 ## Support me
 
-- Paypal: <https://www.paypal.me/thebinhluong0519>
+- PayPal: <https://www.paypal.me/thebinhluong0519>
 - Ethereum: 0xC202255193D95979A7C937aA3CB5220FAD9E2aBe
