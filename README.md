@@ -38,18 +38,18 @@ MacOS Catalina on ThinkPad T440/T440s
 
 #### What will work
 
-- Power Management (C/P-States, Fan RPM, Speed step, etc.)
-- HD Intel Graphic Card (HD4400)
-- Sleep (Sleep from menu + lid close sleep)
-- Camera
-- Ethernet
+- Intel HD 4400 Graphics QE/CI
+- USB Ports
+- Intel Ethernet
+- Audio (All Inputs & Outputs)
+- Sleep and Wake
+- Mini DisplayPort and Mini DisplayPort Audio
+- CPU and IGPU Power Management
 - Battery Status
 - Brightness
-- Keyboard, Trackpad and TrackPoint
-- Sound (automatic headphone detection, mute, volume controls fully working)
-- USB Ports
-- SD Card Reader
-- Bluetooth
+- Function Keys (Fn)
+- ClickPad and TrackPad
+- Integrated Camera
 
 #### Not working
 
